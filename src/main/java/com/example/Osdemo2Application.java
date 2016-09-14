@@ -11,7 +11,7 @@ public class Osdemo2Application {
 		SpringApplication.run(Osdemo2Application.class, args);
 	}
 	
-	@RequestMapping
+	@RequestMapping("/ping")
 	public String ping() {
 		return "pong";
 	}
